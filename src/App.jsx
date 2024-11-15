@@ -4,6 +4,7 @@ import friends from "../friends.json";
 import transactions from "../transactions.json";
 import Container from "./components/Container/Container";
 import Profile from "./components/Profile/Profile";
+import FriendList from "./components/FriendList/FriendList";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           image={userData.avatar}
           stats={userData.stats}
         />
+      </Container>
+      <Container>
+        <FriendList friends={friends} />
       </Container>
     </>
   );
