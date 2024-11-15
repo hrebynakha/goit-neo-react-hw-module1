@@ -1,0 +1,65 @@
+.profile {
+  border: 2px solid #242424;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: -0.02em;
+  color: #242424;
+  overflow: hidden;
+}
+
+.avatar {
+  margin-top: 12px;
+  max-width: 150px;
+  border-radius: 50%;
+  background-color: #4e4646;
+}
+.textBold {
+  font-size: 20px;
+  font-weight: 700;
+}
+.textSecondary {
+  color: gray;
+  font-weight: 500;
+}
+
+.mainInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainInfo p {
+  margin-top: 10px;
+}
+
+.statsList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+}
+
+.statsItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4px;
+  background-color: #cdcecd;
+  width: 100%;
+  border: 1.5px solid gray;
+  border-right: none;
+  border-bottom: none;
+}
+
+.statsItem:first-child {
+  border-left: none;
+}
