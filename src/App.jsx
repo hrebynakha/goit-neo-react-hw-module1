@@ -5,6 +5,7 @@ import transactions from "../transactions.json";
 import Container from "./components/Container/Container";
 import Profile from "./components/Profile/Profile";
 import FriendList from "./components/FriendList/FriendList";
+import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
       </Container>
       <Container>
         <FriendList friends={friends} />
+      </Container>
+      <Container>
+        <TransactionHistory transactions={transactions} />
       </Container>
     </>
   );

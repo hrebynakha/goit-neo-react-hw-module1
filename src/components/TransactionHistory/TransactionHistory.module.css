@@ -1,0 +1,36 @@
+.transactions {
+  margin-top: 20px;
+  width: 100%;
+  border: 2px solid #2c2a2a;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: -0.02em;
+  color: #242424;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+.transactionHeader {
+  background-color: #2e2c2c;
+  color: white;
+  width: 100%;
+}
+.transactions th {
+  padding: 8px;
+  border: 1px solid black;
+  text-align: center;
+}
+tbody tr {
+  transition: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d4d2d2;
+}
+
+tbody tr:hover {
+  background-color: #9c9a9a;
+}

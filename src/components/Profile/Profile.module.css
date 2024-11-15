@@ -10,6 +10,7 @@
   letter-spacing: -0.02em;
   color: #242424;
   overflow: hidden;
+  margin-top: 20px;
 }
 
 .avatar {
@@ -55,7 +56,7 @@
   padding: 4px;
   background-color: #cdcecd;
   width: 100%;
-  border: 1.5px solid gray;
+  border: 2px solid gray;
   border-right: none;
   border-bottom: none;
 }

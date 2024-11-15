@@ -1,0 +1,11 @@
+.type {
+  text-transform: capitalize;
+}
+.currency {
+  text-transform: uppercase;
+}
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
