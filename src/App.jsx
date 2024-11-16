@@ -18,11 +18,7 @@ function App() {
           image={userData.avatar}
           stats={userData.stats}
         />
-      </Container>
-      <Container>
         <FriendList friends={friends} />
-      </Container>
-      <Container>
         <TransactionHistory transactions={transactions} />
       </Container>
     </>
